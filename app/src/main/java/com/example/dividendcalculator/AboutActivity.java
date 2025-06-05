@@ -33,7 +33,7 @@ public class AboutActivity extends AppCompatActivity {
             tvGitHubLink.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    String githubUrl = "https://github.com/your-username/your-repo-name"; // Replace with your GitHub URL
+                    String githubUrl = "https://github.com/athirahamrn/DividendCalculatorApp"; // Replace with your GitHub URL
                     Intent intent = new Intent(Intent.ACTION_VIEW);
                     intent.setData(Uri.parse(githubUrl));
                     startActivity(intent);
